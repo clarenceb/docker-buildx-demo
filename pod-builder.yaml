@@ -4,7 +4,7 @@ metadata:
   name: builder
 spec:
   containers:
-  - name: buidler
+  - name: builder
     image: <your-private-reg-fqdn>/dockerbuildx
     command: ["/bin/sleep", "1000000"]
     # Normally you'd run a build agent here but for this demo we'll just sleep
