@@ -6,5 +6,5 @@ spec:
   containers:
   - name: buidler
     image: <your-private-reg-fqdn>/dockerbuildx
-    command: ["/bin/sleep", "100000"]
-
+    command: ["/bin/sleep", "1000000"]
+    # Normally you'd run a build agent here but for this demo we'll just sleep
